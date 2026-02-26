@@ -4,7 +4,7 @@
     --secundary-color: #F2CB05;
     --aditional-color-0: #D9A404;
     --aditional-color-1: #BF7E04;
-    --aditional-color-2: #402A01;
+    --aditional-color-2: #3f3f3f;
     --neutral-color: rgb(232, 231, 220);
     --white: white;
     --black: black;
@@ -84,8 +84,9 @@ a:hover{
     font-weight: large;
 }
 .servi-conter{
-    background-color: var(--secundary-color);
+    /*background-color: var(--secundary-color);*/
     padding: 80px 30px;
+    border-top: 1px solid #e0e0e0;
 }
 .servi{
     display: grid;
@@ -96,9 +97,10 @@ a:hover{
     text-align: center;
 }
 .footer-conteiner{
-    background-color: var(--aditional-color-0);
+    /*background-color: var(--aditional-color-0);*/
     padding: 5px 0px 0px 0px;
     font-size: 12px;
+    border-top: 1px solid #e0e0e0;
 }
 .footer{
     display: grid;
@@ -118,7 +120,8 @@ a:hover{
     gap: 15px;
 }
 .copyright{
-    background-color: var(--aditional-color-1);
+    /*background-color: var(--aditional-color-1);*/
     padding: 10px 30px;
     font-size: 10px;
+    border-top: 1px solid #e0e0e0;
 }
