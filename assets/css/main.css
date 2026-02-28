@@ -84,9 +84,9 @@ a:hover{
     font-weight: large;
 }
 .servi-conter{
-    /*background-color: var(--secundary-color);*/
+    background-color: var(--secundary-color);
     padding: 80px 30px;
-    border-top: 1px solid #e0e0e0;
+    /*border-top: 1px solid #e0e0e0;*/
 }
 .servi{
     display: grid;
@@ -100,7 +100,7 @@ a:hover{
     /*background-color: var(--aditional-color-0);*/
     padding: 5px 0px 0px 0px;
     font-size: 12px;
-    border-top: 1px solid #e0e0e0;
+    /*border-top: 1px solid #e0e0e0;*/
 }
 .footer{
     display: grid;
