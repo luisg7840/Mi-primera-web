@@ -23,42 +23,57 @@
             </nav>
         </header>
     </section>
-    <section class="descripcion">
-        <div class="col pan-40">
-            <img src="assets/images/Captura de pantalla 2026-02-24 203553.png" alt="Mujer sosteniendo un helado de yogurt" class="img-rem">
+
+
+
+<section class="contacto-container">
+    <h1 class="centrar">Contáctanos</h1>
+    <p class="centrar">Ponle el topping a nuestra conversación. ¡Contáctanos!</p>
+    <div class="contacto">
+        <div class="col">
+            <p class="centrar">Puedes visitarnos nuestra sede:</p>
+            <ul>
+                <li class="centrar"><i class="fa-solid fa-location-dot"></i> Maracay</li>
+            </ul>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.888741071425!2d-67.58864422645539!3d10.270547668324014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803b27791f8839%3A0xb57dbce7a332f1e8!2sMaracuy%C3%A1%20-%20Greek%20Frozen%20Yogurt!5e0!3m2!1ses-419!2sve!4v1772391494015!5m2!1ses-419!2sve" width="600" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col pan-20">
-            <h2>¡El Amor sabe a Maracuyá!</h2>
-            <p>¡Crea tu mix perfecto! Disfruta la cremosidad de nuestro helado de yogurt con tus toppings favoritos. Sabor increíble, frescura total y una versión light para disfrutar sin remordimientos.</p>
+        <div class="col">
+            <form name="contacto" action="#" method="post"></form>
+            <label> Nombre</label>
+                <input type="text" placeholder="Escribe tu nombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="Escribe tu apellido">
+                <label>Email</label>
+                <input type="email" placeholder="Escribe tu correo electronico">
+                <label>ciudad</label>
+                <select name="ciudad">
+                    <option value="Selecciona una ciudad"></option>
+                    <option value="maracay">Maracay</option>
+                    <option value="turmero">Turmero</option>
+                    <option value="cagua">Cagua</option>
+                    <option value="la-victoria">La Victoria</option>
+                </select>
+                <label>Fecha de Nacimiento</label>
+                <input type="date" name="fecha-nacimiento">
+                <label> Sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="ninguno">Seleccione una opcion</option>
+                    <option value="f">Femenino</option>
+                    <option value="m">Masculino</option>
+                    <option value="n-a">No quiero decirlo</option>
+                </select>
+
+                <label> Mensaje</label>
+                <textarea rows="4" cols="50" name="mensaje"></textarea>
+                <input type="submit" value="Contactar">
+            </form>
         </div>
-    </section>
-    <section class="servi-conter centrar">
-        <h2>¡Ven y disfruta de nuestros excelentes servicios!</h2>
-        <p>Traemos para ti:</p>
-        <div class="servi">
-            <div class="col">
-                <i class="fa-solid fa-bowl-food"></i>
-                <h3>Helado de yogurt tradicional</h3>
-                <p>Rico helado natural</p>
-            </div>
-            <div class="col">
-                <i class="fa-solid fa-feather-pointed"></i>
-                <h3>Light</h3>
-                <P>Conoce nuestra versión light para que disfrutes sin remordimientos</P>
-            </div class="col">
-            <div>
-                <i class="fa-solid fa-ice-cream"></i>
-                <h3>Barquillas</h3>
-                <p>Nuestras deliciosas barquillas son ideales si solo quieres un gusto pequeño</p>
-            </div>
-            <div class="col">
-                <i class="fa-solid fa-paw"></i>
-                <h3>Somos pet friendly</h3>
-                <p>Sabemos cuanto te duele dejarlo en casa así que puede acompañarte con nosotros</p>
-            </div>
-        </div>
-    </section>
-<footer class="footer-conteiner">
+    </div>
+</section>
+
+
+
+        <footer class="footer-conteiner">
     <article class="footer">
         <div class="col">
             <img src="assets/images/logo2.png" alt="logo-footer" class="logo-footer">
