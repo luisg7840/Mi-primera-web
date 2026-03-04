@@ -1,0 +1,30 @@
+.servi-conter{
+    background-color: var(--secundary-color);
+    padding: 80px 30px;
+    /*border-top: 1px solid #e0e0e0;*/
+}
+.servi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    font-size: 130%;
+    transition: 0.3s;
+}
+.dife:hover{
+    color: white;
+}
+.ver-mas{
+  background-color: #F2E205;
+  color: #3f3f3f;
+  font-size: large;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+}
+.ver-mas:hover{
+    background-color: #BF7E04;
+    color: white;
+}

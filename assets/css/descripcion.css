@@ -1,0 +1,27 @@
+.descripcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    color: var(--aditional-color-2);
+    font-size: 30px;
+    padding: 100px;
+    
+}
+.pan-40{
+    padding: 0px 40px 0 0;
+}
+.pan-20{
+    padding: 50px 0px 0px 0px;
+    font-size: 27px;
+    line-height: 1.4;
+}
+.img-rem{
+    width: 400px;
+    padding: 0px 0px 0px 100px;
+    margin-top: 48px;
+}
+.descripcion h2{
+    font-size: 45px;
+    line-height: 1;
+    font-weight: large;
+}

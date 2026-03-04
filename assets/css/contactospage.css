@@ -1,0 +1,52 @@
+/*CONTACTOS*/
+.contacto-container{
+    background-color: var(--secundary-color);
+    padding: 80px 0px;
+}
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: large;
+}
+input[type="text"],[type="email"],[type="date"]{
+    width: 100%;
+    border: 2px solid var(--aditional-color-1);
+    color: var(--aditional-color-2);
+    border-radius: 12px;
+    padding: 5px;
+}
+label{
+    width: 100%;
+    font-size: large;
+}
+select{
+    width: 100%;
+    border: solid var(--aditional-color-1);
+    color: var(--aditional-color-2);
+    border-radius: 12px;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid var(--aditional-color-1);
+    color: var(--aditional-color-2);
+    border-radius: 12px;
+    padding: 5px;
+}
+input[type="submit"]{
+    background-color: var(--aditional-color-1);
+    color: var(--white);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: var(--primary-color);
+    color: var(--aditional-color-2);
+}
+.contacto .col{
+    padding: 30px;
+}
+.mapa{
+    border-radius: 50px;
+}
