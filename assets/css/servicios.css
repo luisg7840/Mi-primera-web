@@ -28,3 +28,11 @@
     background-color: #BF7E04;
     color: white;
 }
+.ver-mas {
+  animation: flotar 2.5s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
