@@ -14,12 +14,16 @@
     padding: 80px 0 0 0;
 }
 .mi-parrafo{
-    background-color: var(--aditional-color-2);
-    color: var(--white);
-    border-radius: 20px;
+   background-color: #333; /* El color oscuro */
+    color: white;
+    width: 300px;           /* El ancho que elegiste */
     padding: 10px 20px;
-    height: 50px;
-    margin: 20px 20px 0px 20px;
+    border-radius: 50px;    /* Para que sea ovalado */
+    
+    /* ESTO ES LO QUE LO CENTRA */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .titulo h3{
     margin: 0;
@@ -75,11 +79,73 @@
 .tarjeta-barquillas{
    background-color: rgb(244, 244, 221);
     border-radius: 20px;
-    margin: 35px;
+    margin: 10px;
     padding: 10px 20px;
     width: 145px;
     height: 100px;
     display: flex;
     align-items: center;
-    text-align: center;  
+    text-align: center;
+    font-weight: bold;  
+}
+/*BARQUILLAS FIN*/
+/*TOPPINGS*/
+.tarjeta-toppings{
+   background-color: rgb(244, 244, 221);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*PREMIUM*/
+.tarjeta-pre{
+   background-color: rgb(244, 244, 221);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.tex-bold{
+    font-weight: bold;
+}
+/*LUXURY*/
+.tarjeta-lux{
+   background-color: rgb(244, 244, 221);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 250px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+/*SIRUPS*/
+.tarjeta-sirups{
+   background-color: rgb(244, 244, 221);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 285px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* LUX */
+.tarjeta-lux1{
+   background-color: rgb(244, 244, 221);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
