@@ -125,4 +125,20 @@
     margin: 0 0 0 20px;
     font-size: medium;
 }
+/*Nosotros*/
+.quienes-somos111{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 100px 0 0 0 ;
+}
+.img-quienes{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    border-radius: 20px;
+    margin: auto;
+}
+.margen{
+    margin: 15px;
+}
 }
