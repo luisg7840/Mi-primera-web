@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #F2E205;
+    --secundary-color: #F2CB05;
+    --aditional-color-0: #D9A404;
+    --aditional-color-1: #BF7E04;
+    --aditional-color-2: #3f3f3f;
+    --neutral-color: rgb(232, 231, 220);
+    --white: white;
+    --black: black;
+}
+.quienes-somos111{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+}
+.quienes-somos111 h2{
+    font-size: xx-large;
+}
+.img-quienes{
+    width: 400px;
+    margin: 30px 0 0 45px;
+    border-radius: 20px;
+}
+.margen{
+    margin:0 0 0 90px;
+}
