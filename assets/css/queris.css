@@ -141,4 +141,16 @@
 .margen{
     margin: 15px;
 }
+/*SERVI-VER-MAS*/
+.estructura{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+}
+.imgarreglo{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
 }

@@ -1,0 +1,37 @@
+.slider {
+  width: 100%;
+  height: 300px;
+  overflow: hidden; /* Oculta las imágenes fuera de foco */
+  position: relative;
+  margin: auto;
+}
+
+.slider-track {
+  display: flex;
+  width: 400%; /* Si son 4 imágenes, 400% */
+  animation: slide 10s infinite linear; /* Tiempo de la animación */
+}
+
+.slide {
+  width: 25%; /* 100% dividido entre el número de imágenes */
+  height: 300px;
+  margin: 0 0 0 100px;
+}
+
+.slide img {
+  /*width: 100%;*/
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animación para mover el slider */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(0); } /* Pausa en imagen 1 */
+  30% { transform: translateX(-25%); } /* Movimiento a imagen 2 */
+  50% { transform: translateX(-25%); } /* Pausa en imagen 2 */
+  55% { transform: translateX(-50%); } /* Movimiento a imagen 3 */
+  75% { transform: translateX(-50%); } /* Pausa en imagen 3 */
+  80% { transform: translateX(-75%); } /* Movimiento a imagen 4 */
+  100% { transform: translateX(-75%); } /* Pausa en imagen 4 */
+}

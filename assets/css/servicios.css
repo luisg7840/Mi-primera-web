@@ -13,6 +13,8 @@
 .dife:hover{
     color: white;
 }
+
+/*BOTON*/
 .ver-mas{
   background-color: #F2E205;
   color: #3f3f3f;
@@ -35,4 +37,12 @@
 @keyframes flotar {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
+}
+
+.cardservi {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardservi:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
